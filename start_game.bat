@@ -11,9 +11,9 @@ set "GAME_DIR=%CD%\CavernAdventure"
 
 :: Start game in Room1
 cd "%GAME_DIR%\TheEntrance\Room1"
-
-:game_loop
 cls
+:game_loop
+
 echo =========================================
 echo             Cavern Adventures
 echo -----------------------------------------
@@ -38,9 +38,16 @@ echo -------------- Inventory ----------------
 echo               Map ('dir')
 echo =========================================
 
+echo What Will You Do:
+:: Simulated DOS Prompt
+set "PROMPT_PATH=%REL_PATH%"
+if "!PROMPT_PATH!"=="" set "PROMPT_PATH=TheEntrance\Room1"
+set "SIMULATED_PROMPT=C:\CavernAdventure\!PROMPT_PATH!>"
 
 :: Read user input
-set /p INPUT=What will you do: 
+set /p INPUT=!SIMULATED_PROMPT! 
+
+
 :: Handle special commands
 if /i "%INPUT%"=="exit" exit
 

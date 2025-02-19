@@ -132,16 +132,15 @@ echo Secret Passage Ahead. > TheEntrance\Room2\clue.txt
 
 echo @echo off > TheEntrance\Room2\check_answer.bat
 echo if exist clue.txt ( >> TheEntrance\Room2\check_answer.bat
-echo    echo Correct! You found the clue. Moving you to Room3... >> TheEntrance\Room2\check_answer.bat
-echo    cd ..\Room3 >> TheEntrance\Room2\check_answer.bat
+echo    echo Correct! You found the clue. Now go up One Directory and goto Room3... >> TheEntrance\Room2\check_answer.bat
 echo ) else ( >> TheEntrance\Room2\check_answer.bat
 echo    echo clue.txt does not exist. Try again! >> TheEntrance\Room2\check_answer.bat
 echo ) >> TheEntrance\Room2\check_answer.bat
 
 :: ---- Room3 ----
 echo Great work finding the hidden note! > TheEntrance\Room3\README.1ST
-echo Your next challenge is to CREATE a "cave_map.txt" file. >> TheEntrance\Room3\README.1ST
-echo Inside "cave_map.txt", write any short description of the cave layout. >> TheEntrance\Room3\README.1ST
+echo Your next challenge is to CREATE a "cave_map.txt" using echo and a the greater then symbol to make a file. >> TheEntrance\Room3\README.1ST
+echo Then run DIR to see if the file has been made. >> TheEntrance\Room3\README.1ST
 echo Then run "check_answer.bat". >> TheEntrance\Room3\README.1ST
 
 echo @echo off > TheEntrance\Room3\check_answer.bat
