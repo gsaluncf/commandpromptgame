@@ -1,0 +1,6 @@
+There is a hidden note in this chamber. 
+Step 1) Use "dir" to see what files exist. 
+Step 2) If you see "clue.txt", open it with "type clue.txt". 
+Step 3) Once you're sure you have the clue, run "check_answer.bat". 
+ 
+Make sure "clue.txt" is in the directory before checking 

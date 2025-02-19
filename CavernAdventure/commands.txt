@@ -1,0 +1,27 @@
+LIST OF USEFUL COMMANDS: 
+ 
+NAVIGATION COMMANDS: 
+cd       - Change directory 
+cd ..    - Move up one level 
+dir      - List files in the current directory 
+ 
+FILE CREATION & EDITING: 
+echo TEXT > file.txt     - Create a file with text 
+echo TEXT >    - Append text to an existing file 
+type file.txt             - View file contents 
+del file.txt              - Delete a file 
+ren old.txt new.txt       - Rename a file 
+copy file.txt folder\     - Copy file to a folder 
+move file.txt folder\     - Move file to a folder 
+ 
+SEARCHING & FILTERING: 
+find "text" file.txt      - Search for a word in a file 
+ 
+SYSTEM UTILITIES: 
+ipconfig       - Show network configuration 
+ping website.com - Test internet connection 
+ 
+GAME CONTROLS: 
+check_answer.bat - Run to verify challenge solutions 
+help             - Show the global help menu 
+exit             - Quit the game (close Command Prompt) 
