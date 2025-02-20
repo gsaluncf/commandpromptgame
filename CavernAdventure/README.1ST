@@ -1,16 +1,3 @@
-WELCOME TO THE CAVERN ADVENTURE 
- 
-You are a brave explorer seeking hidden treasure beneath the earth. 
-These caverns are said to hold valuable artifacts and a final locked gate. 
- 
-Each directory represents a Chamber or a Room, containing puzzle tasks. 
-Read the local "README.1ST" for clues on which commands to use. 
- 
-Goal: create a key with the word "VICTORY" to unlock the Great Door 
-Beware a hidden Nether Portal that ends the game if entered. 
- 
-Good luck, explorer, and remember to type "help" at any time 
- 
-START THE GAME: 
-    cd CavernAdventure\TheEntrance\Room1 
-Follow the clues and complete the tasks. 
+WELCOME TO THE CAVERN ADVENTURE!
+Use 'cat README.1ST' for instructions.
+To start, navigate to TheEntrance/Room1.

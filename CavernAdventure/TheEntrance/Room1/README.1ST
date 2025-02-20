@@ -1,5 +1,2 @@
-WELCOME, explorer You have reached the Entrance of the cavern. 
-1) Use "type README.1ST" to read your instructions. 
-2) Then navigate to "Room2" by typing "cd ..\Room2". 
- 
-TIP: If you need help, simply type "help". 
+You have reached the Entrance. Use 'cat README.1ST' for clues.
+Step forward to Room2 using 'cd ../Room2'.
