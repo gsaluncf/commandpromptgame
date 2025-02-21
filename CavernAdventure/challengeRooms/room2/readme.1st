@@ -1,0 +1,4 @@
+Welcome to the Move Challenge.
+There is a file called "report.doc" here. Your task is to move it into the subdirectory "docs".
+If the "docs" folder does not exist, create it first.
+When finished, type "check_answer" to verify your solution.
