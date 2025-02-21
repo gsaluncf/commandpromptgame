@@ -1,0 +1,4 @@
+Welcome to the File Count Challenge.
+In this room, there are several .txt files.
+Your task is to count all .txt files in this folder and output the result to "count.txt".
+Once done, run "./check_answer" to verify your solution.

@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f projects/project.txt ]; then
+    echo "Level Complete!"
+else
+    echo "File not organized correctly. Try again."
+fi

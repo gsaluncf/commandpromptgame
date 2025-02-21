@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f file1_backup.txt ]; then
+    echo "Level Complete!"
+else
+    echo "File not found. Try again."
+fi

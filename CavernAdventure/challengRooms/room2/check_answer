@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f docs/report.doc ]; then
+    echo "Level Complete!"
+else
+    echo "File not moved. Try again."
+fi

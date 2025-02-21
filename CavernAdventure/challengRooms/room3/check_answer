@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f final.txt ]; then
+    echo "Level Complete!"
+else
+    echo "File not renamed. Try again."
+fi

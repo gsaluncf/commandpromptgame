@@ -1,0 +1,12 @@
+#!/bin/bash
+if [ -d archive ]; then
+    shopt -s nullglob
+    bak_files=(archive/*.bak)
+    if [ \${#bak_files[@]} -gt 0 ]; then
+        echo "Level Complete!"
+    else
+        echo "No .bak files found in archive. Try again."
+    fi
+else
+    echo "\"archive\" folder not found. Try again."
+fi

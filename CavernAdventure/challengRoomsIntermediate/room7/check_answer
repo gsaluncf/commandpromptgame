@@ -1,0 +1,6 @@
+#!/bin/bash
+if grep -q "End of Log" log.txt; then
+    echo "Level Complete!"
+else
+    echo "\"End of Log\" not found in log.txt. Try again."
+fi

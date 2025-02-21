@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -f combined.txt ]; then
+    echo "Level Complete!"
+else
+    echo "combined.txt not found. Try again."
+fi

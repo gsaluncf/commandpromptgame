@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ ! -f temp.log ]; then
+    echo "Level Complete!"
+else
+    echo "File still exists. Try again."
+fi

@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ -f count.txt ]; then
+    count=\$(cat count.txt)
+    if [ "\$count" -eq 3 ]; then
+        echo "Level Complete!"
+    else
+        echo "Incorrect count. Try again."
+    fi
+else
+    echo "count.txt not found. Try again."
+fi

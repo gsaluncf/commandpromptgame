@@ -1,0 +1,4 @@
+Welcome to the Directory List Challenge.
+In the "docs" folder, there are several .txt files.
+Your task is to list all .txt files in "docs" and output the list to "files.txt".
+Once done, run "./check_answer" to verify your solution.

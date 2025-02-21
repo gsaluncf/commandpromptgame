@@ -1,0 +1,6 @@
+#!/bin/bash
+if [ -s files.txt ]; then
+    echo "Level Complete!"
+else
+    echo "files.txt not created or empty. Try again."
+fi
